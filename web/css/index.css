@@ -1,0 +1,19 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header {
+    padding-bottom: 15px;
+    border-bottom: 1px #e2e2e2 solid;
+}
+
+.jumbotron {
+    margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
