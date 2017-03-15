@@ -31,8 +31,22 @@
     <div class="jumbotron">
         <h1 class="text-left">JAVA</h1>
         <h1 class="text-left">文件上传与下载</h1>
-        <p class="lead">关于java文件上传与下载</p>
+        <p class="lead">用Java输入输出流与Servlet实现文件上传与下载</p>
     </div>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <a class="btn btn-primary btn-lg" href="jsp/servletupload.jsp">JSP与Servlet实现文件上传与下载</a>
+            <p>用JSP与Servlet上传文件，保存到指定文件夹里，并将上传文件的信息保存到数据库中</p>
+        </div>
+        <div class="col-lg-6">
+            <p>das</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 李明</p>
+    </footer>
 </div>
 
 <script src="bootstrap/js/jquery-3.1.1.min.js"></script>
