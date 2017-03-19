@@ -9,7 +9,7 @@ import java.util.Properties;
  */
 public class PropertyUtil {
 
-    public static final Properties getProperties(String propertiesName) throws IOException {
+    public static Properties getProperties(String propertiesName) throws IOException {
             InputStream stream = PropertyUtil.class.getClassLoader().getResource(propertiesName).openStream();
             Properties properties = new Properties();
             properties.load(stream);

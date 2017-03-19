@@ -21,10 +21,10 @@
 <div class="container">
     <a type="button" class="btn btn-info" href="../index.jsp">返回首页</a>
     <hr>
-    <form action="" method="post" enctype="multipart/form-data">
-        <input type="file">
+    <form action="upload.do" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
         <br>
-        <input type="submit" value="提交" class="btn btn-primary">
+        <input type="submit" value="提交">
     </form>
     <hr>
     <table class="table table-bordered table-striped table-hover">
