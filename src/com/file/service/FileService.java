@@ -1,7 +1,12 @@
 package com.file.service;
 
+import com.file.entity.FileInfo;
+
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.sql.SQLException;
+import java.util.List;
 
 /**
  * 文件上传处理接口
@@ -28,5 +33,11 @@ public interface FileService {
      * @param tempFileName
      * @throws IOException
      */
-    void saveFile(String tempFileName);
+    void saveFile(String tempFileName) throws IOException, SQLException, ClassNotFoundException;
+
+    /**
+     * 获取上传的文件列表
+     * @return
+     */
+    List<FileInfo> getFileInfoList() throws SQLException, IOException, ClassNotFoundException;
 }

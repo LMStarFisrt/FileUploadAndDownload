@@ -36,7 +36,7 @@
 
     <div class="row">
         <div class="col-lg-6">
-            <a class="btn btn-primary btn-lg" href="jsp/servletupload.jsp">JSP与Servlet实现文件上传与下载</a>
+            <a class="btn btn-primary btn-lg" href="/getFile.do">JSP与Servlet实现文件上传与下载</a>
             <p>用JSP与Servlet上传文件，保存到指定文件夹里，并将上传文件的信息保存到数据库中</p>
         </div>
         <div class="col-lg-6">

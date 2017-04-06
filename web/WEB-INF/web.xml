@@ -25,4 +25,12 @@
         <url-pattern>/download.do</url-pattern>
     </servlet-mapping>
     
+    <servlet>
+        <servlet-name>FileServlet</servlet-name>
+        <servlet-class>com.file.servlet.FileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FileServlet</servlet-name>
+        <url-pattern>/getFile.do</url-pattern>
+    </servlet-mapping>
 </web-app>
